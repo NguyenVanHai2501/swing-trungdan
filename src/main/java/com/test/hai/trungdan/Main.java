@@ -18,10 +18,12 @@ public class Main extends javax.swing.JFrame {
     public Main() {
         initComponents();
         setLocationRelativeTo(null);
-        LoginForm registerForm = new LoginForm();
+        ChatPanel registerForm = new ChatPanel();
+        NavBar navBar = new NavBar();
         setLayout(new BorderLayout());
         setTitle("Home Page");
         add(registerForm, BorderLayout.CENTER);
+        add(navBar, BorderLayout.SOUTH);
     }
 
     /**

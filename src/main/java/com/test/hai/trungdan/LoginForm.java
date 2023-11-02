@@ -19,13 +19,13 @@ public class LoginForm extends javax.swing.JPanel {
      */
     public LoginForm() {
         initComponents();
-        ImageIcon icon = new ImageIcon("C:\\Users\\ADMIN\\Desktop\\trungdan\\src\\main\\java\\com\\test\\hai\\trungdan\\image\\stream.jpg");
+        ImageIcon icon = new ImageIcon("src/main/java/com/test/hai/trungdan/image/stream.jpg");
 
         icon.setImage(icon.getImage().getScaledInstance(350, 400, java.awt.Image.SCALE_DEFAULT));
 
         jLabel18.setIcon(icon);
         
-        ImageIcon iconHuman = new ImageIcon("C:\\Users\\ADMIN\\Desktop\\trungdan\\src\\main\\java\\com\\test\\hai\\trungdan\\image\\girl_icon-icons.com_55043.png");
+        ImageIcon iconHuman = new ImageIcon("src/main/java/com/test/hai/trungdan/image/girl_icon-icons.com_55043.png");
 
         iconHuman.setImage(iconHuman.getImage().getScaledInstance(120, 120, java.awt.Image.SCALE_DEFAULT));
 
@@ -61,10 +61,10 @@ public class LoginForm extends javax.swing.JPanel {
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setPreferredSize(new java.awt.Dimension(800, 600));
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(102, 102, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(537, 500));
 
-        jPanel4.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel4.setBackground(new java.awt.Color(102, 102, 255));
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
         jPanel2.setPreferredSize(new java.awt.Dimension(120, 120));
@@ -116,7 +116,7 @@ public class LoginForm extends javax.swing.JPanel {
             .addGap(0, 28, Short.MAX_VALUE)
         );
 
-        jPanel10.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel10.setBackground(new java.awt.Color(102, 102, 255));
 
         jButton1.setBackground(new java.awt.Color(51, 153, 255));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -255,7 +255,7 @@ public class LoginForm extends javax.swing.JPanel {
             .addGroup(jPanel18Layout.createSequentialGroup()
                 .addGap(119, 119, 119)
                 .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(174, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
